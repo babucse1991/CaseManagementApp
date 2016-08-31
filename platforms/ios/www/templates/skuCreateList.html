@@ -1,0 +1,126 @@
+<ion-view view-title="Sku Create List">
+        <ion-content>
+
+		<div class="main">
+		
+					<form class="form-horizontal">
+						<div class="form-group">
+							<label class="cols-sm-3 control-label side_label">Sku ID</label>
+							<div class="cols-sm-8">
+								<div class=" control-label">
+									<input type="text"ng-model="merchant_sku.id">
+								</div>
+							</div>
+						</div>
+						
+						 <div class="form-group">
+							<label class="cols-sm-3 control-label side_label">Product Title</label>
+							<div class="cols-sm-8">
+								<div class=" control-label">
+									<input type="text" ng-model="productList.product_title">
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="cols-sm-3 control-label side_label">Standard product Code</label>
+							<div class="cols-sm-8">
+								<div class=" control-label">
+									<input type="text" ng-model="productTypeObject.standard_product_code">
+								</div>
+								<div class=" control-label">
+									<input type="text" ng-model="productTypeObject.standard_product_code_type">
+								</div>
+							</div>
+						</div>
+						
+						
+						<div class="form-group">
+							<label class="cols-sm-3 control-label side_label">Product Image URL</label>
+							<div class="cols-sm-8">
+								<div class=" control-label">
+									<input type="text" ng-model="productList.main_image_url">
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label class="cols-sm-3 control-label side_label">Product Description</label>
+							<div class="cols-sm-8">
+								<div class=" control-label">
+									<textarea ng-model="productList.product_description"></textarea>
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label class="cols-sm-3 control-label side_label">Price</label>
+							<div class="cols-sm-8">
+								<div class=" control-label">
+									<input type="number" ng-model="productList.map_price">
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label class="cols-sm-3 control-label side_label">Brand</label>
+							<div class="cols-sm-8">
+								<div class=" control-label">
+									<input type="text" ng-model="productList.brand">
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group"> 
+							<label class="cols-sm-3 control-label side_label">Quantity</label>
+							<div class="cols-sm-8">
+								<div class=" control-label">
+									<input type="number" ng-model="productList.multipack_quantity">
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label class="cols-sm-3 control-label side_label">Product Weight</label>
+							<div class="cols-sm-8">
+								<div class=" control-label">
+									<input type="text" ng-model="productList.shipping_weight_pounds">
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label class="cols-sm-3 control-label side_label">Product Length</label>
+							<div class="cols-sm-8">
+								<div class=" control-label">
+									<input type="text" ng-model="productList.package_length_inches">
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label class="cols-sm-3 control-label side_label">Product Width</label>
+							<div class="cols-sm-8">
+								<div class=" control-label">
+									<input type="text" ng-model="productList.package_width_inches">
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label class="cols-sm-3 control-label side_label">Product Height</label>
+							<div class="cols-sm-8">
+								<div class=" control-label">
+									<input type="text" ng-model="productList.package_height_inches">
+								</div>
+							</div>
+						</div>
+												
+						<div class="form-group ">
+							<button type="button" class="btn btn-primary" ng-click="skuCreateList()">Create</button>
+						</div>
+						
+					</form>
+				</div></div>
+		</div>
+        </ion-content>
+      </ion-view>

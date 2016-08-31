@@ -1,0 +1,24 @@
+<ion-view view-title="Log In">
+        <ion-content>
+<!-- Form Module-->
+<div class="spacePadding"></div>
+<div class="module form-module">
+  <div class="form">
+    <h2 class="head">Login</h2>
+    <form  ng-submit="createLogIn()">
+      <input type="text" ng-model="user.user" placeholder="Username"/>
+      <input type="password" ng-model="user.pass" placeholder="Password"/>
+       <input type="text"placeholder="API Key" ng-model="user.merchantId">
+      <button  type="submit" class="button button-block button-calm">Login</button>
+      <p class="text-center">
+              <a href="#/Re-password">Retype password</a>
+            </p>
+    </form>
+</div>
+ <!--  <div ng-init="getLogIn()"ng-repeat="user in users track by $index">
+          	<span class="input-label">Username:{{user.user}}</span>
+           <span class="input-label">Password:{{user.pass}}</span>
+           <span class="input-label">API Key:{{user.merchantId}}</span></div> -->
+  </div>
+        </ion-content>
+      </ion-view>

@@ -1,0 +1,44 @@
+<ion-view view-title="Sku-details"> 
+<ion-content class="padding">
+<div class="list card">
+<!-- <div class="item item-divider">{{skuProducts.status}}</div> -->
+	<div class="item item-body">
+		<h2 class="head">{{skuProducts.product_title}}</h2>
+		<div class="item item-image">
+		<img ng-src="{{skuProducts.main_image_url}}">
+		</div>
+		<p>{{skuProducts.product_description}}</p>
+		<h2><b>Price:</b>${{skuProducts.map_price}}</h2>
+	</div>
+	
+	<div class="list item">
+     <label class="item-input item-stacked-label">
+   <span class="input-label">Quantity</span>
+   <input type="text" ng-model="skuProducts.multipack_quantity">
+   </label>
+    <label class="item-input item-stacked-label">
+   <span class="input-label">Product Weight</span>
+   <input type="text" ng-model="skuProducts.shipping_weight_pounds">
+   </label>
+    <label class="item-input item-stacked-label">
+   <span class="input-label">Product length</span>
+   <input type="text" ng-model="skuProducts.multipack_quantity">
+   </label>
+    <label class="item-input item-stacked-label">
+   <span class="input-label">Product width</span>
+   <input type="text" ng-model="skuProducts.package_width_inches">
+   </label>
+    <label class="item-input item-stacked-label">
+   <span class="input-label">Product Height</span>
+   <input type="text" ng-model="skuProducts.package_height_inches">
+   </label>
+    <label class="item-input item-stacked-label">
+   <span class="input-label">Last Update</span>
+   <input type="text" ng-model="skuProducts.sku_last_update">
+   </label>
+    <label class="item-input item-stacked-label">
+   <span class="input-label">Status</span>
+   <input type="text" ng-model="skuProducts.status">
+   </label>
+</div></div>
+</ion-content> </ion-view>

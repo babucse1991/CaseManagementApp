@@ -1,0 +1,78 @@
+<ion-view view-title="Sku Settlement List"> <ion-content
+	class="padding">
+<div class="list">
+	<div class="item item-divider item-calm divide_header">Settlement
+		Report</div>
+	<div class="item item-body">
+		<ion-item class="item-avatar"
+			ng-repeat="settlementId in skuSettlementListProducts.data.settlement_report_urls"
+			href="#/tab/skuSettlementReportDetail/{{settlementId}}"> <img
+			src="http://www.mikeusa.com/Images/Categories/13986273-new-product.jpg">
+		<h2>{{settlementId.split('/')[3]}}</h2>
+		</ion-item>
+		<div class="list">
+			<div class="item item-body">
+				<div
+					ng-if="skuSettlementListProducts.data.settlement_report_urls.length===0"
+					class="text-center notFoundCol">No data found</div>
+			</div>
+		</div>
+	<!-- 	<div
+			ng-hide="skuSettlementListProducts.data.settlement_report_urls.length===0">
+			<button ng-click="callSkuList()"
+				class="button button-small button-calm">More &raquo;</button>
+		</div> -->
+	</div>
+</div>
+
+<div class="list">
+	<div class="item item-divider item-calm divide_header">Settlement
+		Report for Orders</div>
+	<div class="item item-body">
+		<ion-item class="item-avatar"
+			ng-repeat="settlementId in skuSettlementListProducts.data.settlement_report_urls"
+			href="#/tab/skuSettlementReportOrderDetail/{{settlementId}}">
+		<img
+			src="http://www.mikeusa.com/Images/Categories/13986273-new-product.jpg">
+		<h2>{{settlementId.split('/')[3]}}</h2>
+		</ion-item>
+		<div class="list">
+			<div class="item item-body">
+				<div
+					ng-if="skuSettlementListProducts.data.settlement_report_urls.length===0"
+					class="text-center notFoundCol">No data found</div>
+			</div>
+		</div>
+		<!-- <div
+			ng-hide="skuSettlementListProducts.data.settlement_report_urls.length===0">
+			<button ng-click="callSkuList()"
+				class="button button-small button-calm">More &raquo;</button>
+		</div> -->
+	</div>
+</div>
+
+<div class="list">
+	<div class="item item-divider item-calm divide_header">Settlement
+		Report for Returns</div>
+	<div class="item item-body">
+		<ion-item class="item-avatar"
+			ng-repeat="settlementId in skuSettlementListProducts.data.settlement_report_urls"
+			href="#/tab/skuSettlementReturnDetail/{{settlementId}}"> <img
+			src="http://www.mikeusa.com/Images/Categories/13986273-new-product.jpg">
+		<h2>{{settlementId.split('/')[3]}}</h2>
+		</ion-item>
+		<div class="list">
+			<div class="item item-body">
+				<div
+					ng-if="skuSettlementListProducts.data.settlement_report_urls.length===0"
+					class="text-center notFoundCol">No data found</div>
+			</div>
+		</div>
+		<!-- <div
+			ng-hide="skuSettlementListProducts.data.settlement_report_urls.length===0">
+			<button ng-click="callSkuList()"
+				class="button button-small button-calm">More &raquo;</button>
+		</div> -->
+	</div>
+</div>
+</ion-content> </ion-view>

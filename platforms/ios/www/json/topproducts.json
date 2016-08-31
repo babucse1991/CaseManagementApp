@@ -1,0 +1,304 @@
+[
+
+    {
+        "name":"Govino-Shatterproof-Recyclable-Stemless-Wine-Glasses",
+        "localizedName":"Govino Shatterproof Recyclable Stemless Wine Glasses",
+        "primaryNodeTypeName":"hippogogreen:product",
+        "links":[
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:rest",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/restapi/products/kitchen/Govino-Shatterproof-Recyclable-Stemless-Wine-Glasses",
+                    "title":"Govino Shatterproof Recyclable Stemless Wine Glasses"
+                }
+            },
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:site",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/products/kitchen/Govino-Shatterproof-Recyclable-Stemless-Wine-Glasses.html",
+                    "title":"Govino Shatterproof Recyclable Stemless Wine Glasses"
+                }
+            }
+        ],
+        "price":0.0,
+        "rating":4.0,
+        "smallThumbnail":"https://www.demo.onehippo.com/binaries/smallthumbnail/content/gallery/products/2010/07/Shatterproof-wineglass.jpg",
+        "path":"/content/documents/hippogogreen/products/kitchen/Govino-Shatterproof-Recyclable-Stemless-Wine-Glasses/Govino-Shatterproof-Recyclable-Stemless-Wine-Glasses",
+        "leaf":false,
+        "canonicalHandleUuid":"5fcd06b1-ba12-45af-b06d-1dff1eaf02ba",
+        "productLink":"https://www.demo.onehippo.com/restapi/products/kitchen/Govino-Shatterproof-Recyclable-Stemless-Wine-Glasses"
+    },
+    {
+        "name":"external-laptop-charger",
+        "localizedName":"External Laptop Charger",
+        "primaryNodeTypeName":"hippogogreen:product",
+        "links":[
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:rest",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/restapi/products/gadgets/external-laptop-charger",
+                    "title":"External Laptop Charger"
+                }
+            },
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:site",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/products/gadgets/external-laptop-charger.html",
+                    "title":"External Laptop Charger"
+                }
+            }
+        ],
+        "price":140.0,
+        "rating":4.0,
+        "smallThumbnail":"https://www.demo.onehippo.com/binaries/smallthumbnail/content/gallery/products/2010/08/zap_m48_detail.jpg",
+        "path":"/content/documents/hippogogreen/products/gadgets/external-laptop-charger/external-laptop-charger",
+        "leaf":false,
+        "canonicalHandleUuid":"1c3edb94-16fc-450b-ae1d-e9657e08d1dc",
+        "productLink":"https://www.demo.onehippo.com/restapi/products/gadgets/external-laptop-charger"
+    },
+    {
+        "name":"dental-floss",
+        "localizedName":"Dental Floss",
+        "primaryNodeTypeName":"hippogogreen:product",
+        "links":[
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:rest",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/restapi/products/health-care/2010/07/dental-floss",
+                    "title":"Dental Floss - Silk"
+                }
+            },
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:site",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/products/health-care/2010/07/dental-floss.html",
+                    "title":"Dental Floss - Silk"
+                }
+            }
+        ],
+        "price":40.0,
+        "rating":3.0,
+        "smallThumbnail":"https://www.demo.onehippo.com/binaries/smallthumbnail/content/gallery/products/2010/08/rt_silk_floss_detail.jpg",
+        "path":"/content/documents/hippogogreen/products/health-care/2010/07/dental-floss/dental-floss",
+        "leaf":false,
+        "canonicalHandleUuid":"ff0ef60c-ddaf-4c6c-abc3-ae427303e5d2",
+        "productLink":"https://www.demo.onehippo.com/restapi/products/health-care/2010/07/dental-floss"
+    },
+    {
+        "name":"penguin-squeezy",
+        "localizedName":"penguin-squeezy",
+        "primaryNodeTypeName":"hippogogreen:product",
+        "links":[
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:rest",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/restapi/products/family/penguin-squeezy",
+                    "title":"Penguin Squeezy Kinetic Torch"
+                }
+            },
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:site",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/products/family/penguin-squeezy.html",
+                    "title":"Penguin Squeezy Kinetic Torch"
+                }
+            }
+        ],
+        "price":2.95,
+        "rating":3.0,
+        "smallThumbnail":"https://www.demo.onehippo.com/binaries/smallthumbnail/content/gallery/products/2010/06/penguin_squeeze_torch-sml.jpg",
+        "path":"/content/documents/hippogogreen/products/family/penguin-squeezy/penguin-squeezy",
+        "leaf":false,
+        "canonicalHandleUuid":"652c90d1-8fa0-4b57-a1d4-a813f06b9511",
+        "productLink":"https://www.demo.onehippo.com/restapi/products/family/penguin-squeezy"
+    },
+    {
+        "name":"orbis-100-recyclable-flipak-totes",
+        "localizedName":"ORBIS 100% Recyclable FliPak Totes",
+        "primaryNodeTypeName":"hippogogreen:product",
+        "links":[
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:rest",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/restapi/products/transport/orbis-100-recyclable-flipak-totes",
+                    "title":"ORBIS 100% Recyclable FliPak Totes"
+                }
+            },
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:site",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/products/transport/orbis-100-recyclable-flipak-totes.html",
+                    "title":"ORBIS 100% Recyclable FliPak Totes"
+                }
+            }
+        ],
+        "price":19.9,
+        "rating":2.0,
+        "smallThumbnail":"https://www.demo.onehippo.com/binaries/smallthumbnail/content/gallery/products/2010/07/Totes.jpg",
+        "path":"/content/documents/hippogogreen/products/transport/orbis-100-recyclable-flipak-totes/orbis-100-recyclable-flipak-totes",
+        "leaf":false,
+        "canonicalHandleUuid":"9a699b7f-fe35-418e-bd6e-5a08e7b4763a",
+        "productLink":"https://www.demo.onehippo.com/restapi/products/transport/orbis-100-recyclable-flipak-totes"
+    },
+    {
+        "name":"Promotional-16-oz-Recyclable-Aluminum-Bottle",
+        "localizedName":"Promotional 16 oz Recyclable Aluminum Bottle",
+        "primaryNodeTypeName":"hippogogreen:product",
+        "links":[
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:rest",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/restapi/products/outdoors/Promotional-16-oz-Recyclable-Aluminum-Bottle",
+                    "title":"Promotional 16 oz Recyclable Aluminum Bottle"
+                }
+            },
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:site",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/products/outdoors/Promotional-16-oz-Recyclable-Aluminum-Bottle.html",
+                    "title":"Promotional 16 oz Recyclable Aluminum Bottle"
+                }
+            }
+        ],
+        "price":3.06,
+        "rating":2.0,
+        "smallThumbnail":"https://www.demo.onehippo.com/binaries/smallthumbnail/content/gallery/products/2010/07/Aluminum-bottle.jpg",
+        "path":"/content/documents/hippogogreen/products/outdoors/Promotional-16-oz-Recyclable-Aluminum-Bottle/Promotional-16-oz-Recyclable-Aluminum-Bottle",
+        "leaf":false,
+        "canonicalHandleUuid":"9f12b4bf-20b8-4297-86dc-d0b3e78860e7",
+        "productLink":"https://www.demo.onehippo.com/restapi/products/outdoors/Promotional-16-oz-Recyclable-Aluminum-Bottle"
+    },
+    {
+        "name":"perfect-organics-body-wash",
+        "localizedName":"Perfect Organics Body Wash",
+        "primaryNodeTypeName":"hippogogreen:product",
+        "links":[
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:rest",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/restapi/products/health-care/2010/07/perfect-organics-body-wash",
+                    "title":"Perfect Organics Body Wash"
+                }
+            },
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:site",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/products/health-care/2010/07/perfect-organics-body-wash.html",
+                    "title":"Perfect Organics Body Wash"
+                }
+            }
+        ],
+        "price":13.0,
+        "rating":0.0,
+        "smallThumbnail":"https://www.demo.onehippo.com/binaries/smallthumbnail/content/gallery/products/2010/08/po_bodywash3in1_detail.jpg",
+        "path":"/content/documents/hippogogreen/products/health-care/2010/07/perfect-organics-body-wash/perfect-organics-body-wash",
+        "leaf":false,
+        "canonicalHandleUuid":"e43ff044-c31a-4f6e-b355-c125503aeb1d",
+        "productLink":"https://www.demo.onehippo.com/restapi/products/health-care/2010/07/perfect-organics-body-wash"
+    },
+    {
+        "name":"recycled-and-recyclable-toothbrush",
+        "localizedName":"Recycled and Recyclable Toothbrush",
+        "primaryNodeTypeName":"hippogogreen:product",
+        "links":[
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:rest",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/restapi/products/health-care/2010/07/recycled-and-recyclable-toothbrush",
+                    "title":"Recycled and Recyclable Toothbrush"
+                }
+            },
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:site",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/products/health-care/2010/07/recycled-and-recyclable-toothbrush.html",
+                    "title":"Recycled and Recyclable Toothbrush"
+                }
+            }
+        ],
+        "price":20.0,
+        "rating":0.0,
+        "smallThumbnail":"https://www.demo.onehippo.com/binaries/smallthumbnail/content/gallery/products/2010/07/rec_toothbrush_detail.jpg",
+        "path":"/content/documents/hippogogreen/products/health-care/2010/07/recycled-and-recyclable-toothbrush/recycled-and-recyclable-toothbrush",
+        "leaf":false,
+        "canonicalHandleUuid":"52f975a4-f6d1-4bea-9648-e361df2126f6",
+        "productLink":"https://www.demo.onehippo.com/restapi/products/health-care/2010/07/recycled-and-recyclable-toothbrush"
+    },
+    {
+        "name":"avalon-organic-conditioner",
+        "localizedName":"Avalon Organic Conditioner",
+        "primaryNodeTypeName":"hippogogreen:product",
+        "links":[
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:rest",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/restapi/products/health-care/2010/07/avalon-organic-conditioner",
+                    "title":"Avalon Organic Conditioner"
+                }
+            },
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:site",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/products/health-care/2010/07/avalon-organic-conditioner.html",
+                    "title":"Avalon Organic Conditioner"
+                }
+            }
+        ],
+        "price":26.0,
+        "rating":0.0,
+        "smallThumbnail":"https://www.demo.onehippo.com/binaries/smallthumbnail/content/gallery/products/2010/08/koktheraputicshampoo_detail.jpg",
+        "path":"/content/documents/hippogogreen/products/health-care/2010/07/avalon-organic-conditioner/avalon-organic-conditioner",
+        "leaf":false,
+        "canonicalHandleUuid":"6be40055-259e-42ea-8823-b2d173787553",
+        "productLink":"https://www.demo.onehippo.com/restapi/products/health-care/2010/07/avalon-organic-conditioner"
+    },
+    {
+        "name":"banana-paper-business-cards-1000-card-pack",
+        "localizedName":"Banana paper Business cards 1000 card pack",
+        "primaryNodeTypeName":"hippogogreen:product",
+        "links":[
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:rest",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/restapi/products/office/banana-paper-business-cards-1000-card-pack",
+                    "title":"Banana paper Business cards"
+                }
+            },
+            {
+                "Link":{
+                    "rel":"http://www.onehippo.org/cms7/hst/rest/relations/mount:site",
+                    "type":null,
+                    "href":"https://www.demo.onehippo.com/products/office/banana-paper-business-cards-1000-card-pack.html",
+                    "title":"Banana paper Business cards"
+                }
+            }
+        ],
+        "price":85.0,
+        "rating":0.0,
+        "smallThumbnail":"https://www.demo.onehippo.com/binaries/smallthumbnail/content/gallery/products/office/banana-business-card.jpg",
+        "path":"/content/documents/hippogogreen/products/office/banana-paper-business-cards-1000-card-pack/banana-paper-business-cards-1000-card-pack",
+        "leaf":false,
+        "canonicalHandleUuid":"d1e60035-5b16-4167-9375-912b2f72d45e",
+        "productLink":"https://www.demo.onehippo.com/restapi/products/office/banana-paper-business-cards-1000-card-pack"
+    }
+
+]

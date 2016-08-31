@@ -1,0 +1,118 @@
+<ion-view view-title="Sku Settlement Report for Returns"> <ion-content
+	class="padding">
+<div class="list">
+	<div class="item item-divider item-calm divide_header">Total
+		Return Balance Details</div>
+	<div class="item item-body">
+		<span class="col-sm-2 col-xs-8 side_label">Settlement State</span><span
+			class="col-sm-10 col-xs-4 s_label">{{skuSettlementReturnDetailProducts.data.settlement_state}}</span>
+	</div>
+	<div class="item item-body">
+		<span class="col-sm-2 col-xs-8 side_label">Merchant Price</span><span
+			class="col-sm-10 col-xs-4 s_label">${{skuSettlementReturnDetailProducts.data.total_returns_balance_details.merchant_price}}</span>
+	</div>
+	<div class="item item-body">
+		<span class="col-sm-2 col-xs-8 side_label">Variable Commission</span><span
+			class="col-sm-10 col-xs-4 s_label">${{skuSettlementReturnDetailProducts.data.total_returns_balance_details.variable_commission}}</span>
+	</div>
+	<div class="item item-body">
+		<span class="col-sm-2 col-xs-8 side_label">Base Commission</span><span
+			class="col-sm-10 col-xs-4 s_label">${{skuSettlementReturnDetailProducts.data.total_returns_balance_details.base_commission}}</span>
+	</div>
+	<div class="item item-body">
+		<span class="col-sm-2 col-xs-8 side_label">Tax</span><span
+			class="col-sm-10 col-xs-4 s_label">${{skuSettlementReturnDetailProducts.data.total_returns_balance_details.tax}}</span>
+	</div>
+	<div class="item item-body">
+		<span class="col-sm-2 col-xs-8 side_label">Shipping Revenue</span><span
+			class="col-sm-10 col-xs-4 s_label">${{skuSettlementReturnDetailProducts.data.total_returns_balance_details.shipping_revenue}}</span>
+	</div>
+	<div class="item item-body">
+		<span class="col-sm-2 col-xs-8 side_label">Shipping Tax</span><span
+			class="col-sm-10 col-xs-4 s_label">${{skuSettlementReturnDetailProducts.data.total_returns_balance_details.shipping_tax}}</span>
+	</div>
+	<div class="item item-body">
+		<span class="col-sm-2 col-xs-8 side_label">Merchant Return
+			Charge</span><span class="col-sm-10 col-xs-4 s_label">${{skuSettlementReturnDetailProducts.data.total_returns_balance_details.merchant_return_charge}}</span>
+	</div>
+
+</div>
+
+
+<div class="list">
+	<div class="item item-divider item-calm divide_header">Return
+		Balance Details</div>
+	<div
+		ng-repeat="SettlementOrderDetailProduct in skuSettlementReturnDetailProducts.data.returns_balance_details">
+		<div class="item item-body">
+			<span class="col-sm-2 col-xs-8 side_label">Merchant Price</span><span
+				class="col-sm-10 col-xs-4 s_label">${{SettlementOrderDetailProduct.merchant_price}}</span>
+		</div>
+		<div class="item item-body">
+			<span class="col-sm-2 col-xs-8 side_label">Variable Commission</span><span
+				class="col-sm-10 col-xs-4 s_label">${{SettlementOrderDetailProduct.variable_commission}}</span>
+		</div>
+		<div class="item item-body">
+			<span class="col-sm-2 col-xs-8 side_label">Base Commission</span><span
+				class="col-sm-10 col-xs-4 s_label">${{SettlementOrderDetailProduct.base_commission}}</span>
+		</div>
+		<div class="item item-body">
+			<span class="col-sm-2 col-xs-8 side_label">Tax</span><span
+				class="col-sm-10 col-xs-4 s_label">${{SettlementOrderDetailProduct.tax}}</span>
+		</div>
+		<div class="item item-body">
+			<span class="col-sm-2 col-xs-8 side_label">Shipping Revenue</span><span
+				class="col-sm-10 col-xs-4 s_label">${{SettlementOrderDetailProduct.shipping_revenue}}</span>
+		</div>
+		<div class="item item-body">
+			<span class="col-sm-2 col-xs-8 side_label">Shipping Tax</span><span
+				class="col-sm-10 col-xs-4 s_label">${{SettlementOrderDetailProduct.shipping_tax}}</span>
+		</div>
+		<div class="item item-body">
+			<span class="col-sm-2 col-xs-8 side_label">Merchant Return Charge</span><span
+				class="col-sm-10 col-xs-4 s_label">${{SettlementOrderDetailProduct.merchant_return_charge}}</span>
+		</div>
+		<div class="item item-body">
+			<span class="col-sm-2 col-xs-8 side_label">Total Return
+				Balance</span><span class="col-sm-10 col-xs-4 s_label">${{SettlementOrderDetailProduct.total_return_balance}}</span>
+		</div>
+		<hr>
+		<div
+			ng-repeat="OrderDetailProduct in SettlementOrderDetailProduct.return_balance_details">
+			<div class="item item-body">
+				<span class="col-sm-2 col-xs-8 side_label">Merchant Price</span><span
+					class="col-sm-10 col-xs-4 s_label">${{OrderDetailProduct.merchant_price}}</span>
+			</div>
+			<div class="item item-body">
+				<span class="col-sm-2 col-xs-8 side_label">Variable
+					Commission</span><span class="col-sm-10 col-xs-4 s_label">${{OrderDetailProduct.variable_commission}}</span>
+			</div>
+			<div class="item item-body">
+				<span class="col-sm-2 col-xs-8 side_label">Base Commission</span><span
+					class="col-sm-10 col-xs-4 s_label">${{OrderDetailProduct.base_commission}}</span>
+			</div>
+			<div class="item item-body">
+				<span class="col-sm-2 col-xs-8 side_label">Tax</span><span
+					class="col-sm-10 col-xs-4 s_label">${{OrderDetailProduct.tax}}</span>
+			</div>
+			<div class="item item-body">
+				<span class="col-sm-2 col-xs-8 side_label">Shipping Revenue</span><span
+					class="col-sm-10 col-xs-4 s_label">${{OrderDetailProduct.shipping_revenue}}</span>
+			</div>
+			<div class="item item-body">
+				<span class="col-sm-2 col-xs-8 side_label">Shipping Tax</span><span
+					class="col-sm-10 col-xs-4 s_label">${{OrderDetailProduct.shipping_tax}}</span>
+			</div>
+			<div class="item item-body">
+				<span class="col-sm-2 col-xs-8 side_label">Merchant Return Charge</span><span
+					class="col-sm-10 col-xs-4 s_label">${{OrderDetailProduct.merchant_return_charge}}</span>
+			</div>
+			<div class="item item-body">
+				<span class="col-sm-2 col-xs-8 side_label">total_return_item_balance</span><span
+					class="col-sm-10 col-xs-4 s_label">${{OrderDetailProduct.total_return_item_balance}}</span>
+			</div>
+			<hr>
+		</div>
+	</div>
+</div>
+</ion-content> </ion-view>

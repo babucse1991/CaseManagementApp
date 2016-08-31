@@ -1,0 +1,29 @@
+{
+  "brand": "Asus",
+  "correlation_id": "map_fd5d29a5137347a99c977c7304847659",
+  "inventory_by_fulfillment_node": [],
+  "main_image_url": "https://d1w0x2adoh4nzy.cloudfront.net/c9/da/c9da758e-36c3-455d-affa-77749e5e8c3e.jpg",
+  "map_implementation": "103",
+  "map_price": 513.95,
+  "merchant_id": "b7f808daefae4f2e9d0d5303a6029df9",
+  "merchant_sku": "11769190E",
+  "merchant_sku_id": "71ecf36c2cb2400eb70a5beadc64fb60",
+  "multipack_quantity": 1,
+  "package_height_inches": 12.0,
+  "package_length_inches": 12.0,
+  "package_width_inches": 6.0,
+  "producer_id": "ironman",
+  "product_description": "ASUS All-in-One PC ET1620IUTT - All-in-one - 1 x Celeron J1900 - RAM 2 GB - HDD 500 GB - HD Graphics - GigE - WLAN : 802.11b/g/n - Windows 8.1 64-bit - Monitor : LED 15.6 1366 x 768 ( HD ) touchscreen",
+  "product_title": "ASUS All-in-One PC ET1620IUTT - Celeron J1900 - 2 GB - 500 GB - LED 15.6&quot;",
+  "shipping_weight_pounds": 10.0,
+  "sku_last_update": "2016-01-13T19:30:55.0000000Z",
+  "standard_product_codes": [
+    {
+      "standard_product_code": "889349007952",
+      "standard_product_code_type": "UPC"
+    }
+  ],
+  "status": "Under Jet Review",
+  "sub_status": [],
+  "type_of_unit_for_price_per_unit": "each"
+}

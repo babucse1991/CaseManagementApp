@@ -1,0 +1,77 @@
+<ion-view view-title="Sku Orders">
+  <ion-content class="padding">
+    <div class="list">
+    <div class="item item-divider item-calm">Orders</div>
+      <div class="item item-body">
+    
+        <ion-item class="item-avatar" href="#/tab/skuOrderList/created">
+       		<h2 >Created</h2>
+        </ion-item>
+        <ion-item class="item-avatar" href="#/tab/skuOrderList/ready">
+       		<h2 >Ready</h2>
+        </ion-item>
+        <ion-item class="item-avatar" href="#/tab/skuOrderList/acknowledged">
+       		<h2 >Acknowledged</h2>
+        </ion-item>
+        <ion-item class="item-avatar" href="#/tab/skuOrderList/inprogress">
+       		<h2 >Inprogress</h2>
+        </ion-item>
+        <ion-item class="item-avatar" href="#/tab/skuOrderList/complete">
+       		<h2 >Complete</h2>
+        </ion-item>
+    </div>
+    </div>
+    
+    <div class="list">
+    <div class="item item-divider item-calm">Returns</div>
+      <div class="item item-body">
+    
+        <ion-item class="item-avatar" href="#/tab/skuReturnList/created">
+       		<h2 >Created</h2>
+        </ion-item>
+        <ion-item class="item-avatar" href="#/tab/skuReturnList/acknowledged">
+       		<h2 >Acknowledged</h2>
+        </ion-item>
+        <ion-item class="item-avatar" href="#/tab/skuReturnList/inprogress">
+       		<h2 >Inprogress</h2>
+        </ion-item>
+        <ion-item class="item-avatar" href="#/tab/skuReturnList/complete">
+       		<h2 >Complete</h2>
+        </ion-item>
+    </div>
+    </div>
+    
+    <div class="list">
+    <div class="item item-divider item-calm">Refunds</div>
+      <div class="item item-body">
+    
+        <ion-item class="item-avatar" href="#/tab/skuRefundList/created">
+       		<h2>Created</h2>
+        </ion-item>
+        <ion-item class="item-avatar" href="#/tab/skuRefundList/processing">
+       		<h2>Processing</h2>
+        </ion-item>
+        <ion-item class="item-avatar" href="#/tab/skuRefundList/accepted">
+       		<h2>Accepted</h2>
+        </ion-item>
+        <ion-item class="item-avatar" href="#/tab/skuRefundList/rejected">
+       		<h2>Rejected</h2>
+        </ion-item>
+    </div>
+    </div>
+   
+        <div class="list">
+ <div class="item item-divider item-calm">Settlement</div>
+   <div class="item item-body">
+ <label>Number Of Days</label>
+      <input type="text"  ng-model="days">
+  <a href="#/tab/skuSettlementList/{{days}}">
+  <br>
+    <button class="button button-small button-calm pull-right">
+      Submit</button>
+    </a>
+  </div>
+ 
+</div>
+  </ion-content>
+</ion-view>

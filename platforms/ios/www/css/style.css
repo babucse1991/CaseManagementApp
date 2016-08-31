@@ -1,0 +1,125 @@
+/* Empty. Add your own CSS if you like */
+input[type="text"] {
+	border: 1px solid lightgray !important;
+}
+
+input[type="number"] {
+	border: 1px solid lightgray !important;
+}
+
+textarea {
+	border: 1px solid lightgray !important;
+}
+
+input[type="password"] {
+	border: 1px solid lightgray !important;
+}
+
+.head {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 900;
+}
+
+.input-label {
+	font-family: "Times New Roman";
+	color: #282828;
+}
+
+.item p {
+	color: #080000 !important;
+	font-size: 14px;
+}
+
+.spinner svg {
+	width: 100% !important;
+	height: 85px !important;
+	color: #11c1f3 !important;
+}
+
+.loading-container .loading {
+	background-color: #FFFFFF !important;
+	border-radius: 5px !important;
+	color: #fff !important;
+	font-size: 15px !important;
+	padding: 20px !important;
+	text-align: center !important;
+	text-overflow: ellipsis !important;
+}
+
+.form {
+	position: relative;
+	z-index: 1;
+	background: #FFFFFF;
+	max-width: 300px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0
+		rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: 600;
+	outline: 0;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 8px;
+	box-sizing: border-box;
+	font-size: 15px;
+}
+
+.spacePadding {
+	padding-top: 110px;
+}
+
+.side_label {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.s_label {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.divide_header {
+	font-family: "Lucida Console", Courier, monospace;;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+
+.notFoundCol {
+	color: #11c1f3;
+}
+
+.main {
+	padding: 10px 25px 10px 25px;
+}
+
+.item-avatar>img:first-child, .item-avatar .item-image, .item-avatar .item-content>img:first-child,
+	.item-avatar .item-content .item-image, .item-avatar-left>img:first-child,
+	.item-avatar-left .item-image, .item-avatar-left .item-content>img:first-child,
+	.item-avatar-left .item-content 
+.item-image {
+	top: 23px !important;
+}
+label{
+	padding: 0px 0px 7px 0px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.item_hover:hover{
+	background-color: #11c1f3;
+	color:#FFFFFF;
+	padding: 30px 198px 30px 85px;
+}

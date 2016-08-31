@@ -1,0 +1,17 @@
+/* Empty. Add your own CSS if you like */
+.label{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.sidelabel{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 13px;
+}
+.item{
+	 padding: 15px !important;
+}
+.button-radius {
+    border-radius: 40px  !important;
+}

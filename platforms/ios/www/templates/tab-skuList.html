@@ -1,0 +1,18 @@
+<ion-view view-title="SKU List">
+     <ion-content class="padding">
+        <ion-list>
+        <div class="list">
+        <div class="item item-body">
+        
+        <ion-item class="item-avatar" ng-repeat="skuId in skuListProducts" type="item-text-wrap" href="#/tab/sku/{{skuId}}">
+       <img src="http://www.mikeusa.com/Images/Categories/13986273-new-product.jpg">
+                <h2>{{skuId.split('/')[1]}}</h2>
+            </ion-item>
+            
+            </div>
+            </div>
+            
+  <button ng-hide="skuListProducts.length===0" ng-click="callSkuList()"class="button button-small button-calm" >More &raquo;</button>
+        </ion-list>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,23 @@
+<ion-view view-title="Sku Order List"> <ion-content
+	class="padding">
+<div class="list">
+	<div class="item item-body">
+		<ion-item class="item-avatar"
+			ng-repeat="orderId in skuOrderListProducts.order_urls"
+			href="#/tab/skuOrderDetail/{{orderId}}">
+			 <img src="http://www.mikeusa.com/Images/Categories/13986273-new-product.jpg">
+		<h2>{{orderId.split('/')[3]}}</h2>
+		</ion-item>
+		<div class="list">
+			<div class="item item-body">
+				<div ng-if="skuOrderListProducts.order_urls.length===0"
+					class="text-center notFoundCol">No data found</div>
+			</div>
+		</div>
+		<!-- <div ng-hide="skuOrderListProducts.order_urls.length===0">
+		 <button ng-click="callSkuList()"class="button button-small button-calm" >More &raquo;</button>
+			</div> -->
+	</div>
+</div>
+
+</ion-content> </ion-view>
